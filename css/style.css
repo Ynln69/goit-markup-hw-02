@@ -12,7 +12,6 @@
 body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
-  letter-spacing: 0.03em;
   color: var(--main-font-color);
   background-color: var(--main-light-color);
 }
@@ -30,6 +29,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
   color: var(--accent-color);
 }
 .logo-dark {
@@ -72,8 +72,6 @@ body {
   color: var(--main-light-color);
 }
 .btn {
-  width: 216px;
-  height: 50px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -103,17 +101,21 @@ body {
   margin: -1px;
 }
 .feature-title {
+  font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--secondory-font-color);
 }
 .feature-text {
   line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 /* Стилізація секції "чим ми займаємось" */
 .title {
   font-size: 36px;
   line-height: 1.16;
+  letter-spacing: 0.03em;
   color: var(--secondory-font-color);
 }
 /* Стилізація секції "Наша команда" */
@@ -123,6 +125,7 @@ body {
 .team-title {
   font-size: 16px;
   line-height: 1.18;
+  letter-spacing: 0.03em;
   color: var(--secondory-font-color);
 }
 .team-box {
@@ -140,6 +143,7 @@ body {
 }
 .address-link {
   line-height: 1.71;
+  letter-spacing: 0.03em;
   color: var(--main-light-color);
 }
 .address-link:hover,
@@ -149,11 +153,11 @@ body {
 /* Стилізація для сторінки портфоліо  */
 /* Основний контент\фільтр секція */
 .filter-button {
-  width: 125px;
-  height: 38px;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  letter-spacing: 0.03em;
   text-align: center;
   color: var(--secondory-font-color);
   background: var(--section-team-bg-color);
@@ -179,5 +183,6 @@ body {
 .card-text {
   font-size: 16px;
   line-height: 1.87;
+  letter-spacing: 0.03em;
   color: var(--main-font-color);
 }
