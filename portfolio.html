@@ -26,7 +26,9 @@
             <a href="./index.html" class="nav-link link">Студія</a>
           </li>
           <li class="nav-item">
-            <a href="./portfolio.html" class="nav-link link">Портфоліо</a>
+            <a href="./portfolio.html" class="nav-link link current"
+              >Портфоліо</a
+            >
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link link">Контакти</a>
@@ -49,109 +51,135 @@
     </header>
     <!-- Основний контент -->
     <main>
-      <h1>Фільтри</h1>
-      <section>
-        <ul>
-          <li><button type="button">Усі</button></li>
-          <li><button type="button">Веб-сайти</button></li>
-          <li><button type="button">Додатки</button></li>
-          <li><button type="button">Дизайн</button></li>
-          <li><button type="button">Маркетинг</button></li>
+      <h1 class="visually-hidden title">Фільтри</h1>
+      <section class="filter">
+        <ul class="filter-list list">
+          <li class="filter-item">
+            <button class="filter-button" type="button">Усі</button>
+          </li>
+          <li class="filter-item">
+            <button class="filter-button" type="button">Веб-сайти</button>
+          </li>
+          <li class="filter-item">
+            <button class="filter-button" type="button">Додатки</button>
+          </li>
+          <li class="filter-item">
+            <button class="filter-button" type="button">Дизайн</button>
+          </li>
+          <li class="filter-item">
+            <button class="filter-button" type="button">Маркетинг</button>
+          </li>
         </ul>
-        <ul>
-          <li>
-            <a href="#">
+        <ul class="card-list list">
+          <li class="card-item">
+            <a href="#" class="card-link link">
               <img
                 src="./images/picture.jpg"
                 alt="мак бук з відкритим сайтом"
                 width="370"
+                class="card-img"
               />
-              <h2>Технокряк</h2>
-              <p>Веб-сайт</p>
+              <h2 class="card-title">Технокряк</h2>
+              <p class="card-text">Веб-сайт</p>
             </a>
           </li>
-          <li>
-            <a href="#">
+          <li class="card-item">
+            <a href="#" class="card-link link">
               <img
                 src="./images/picture2.jpg"
                 alt="двоє чоловіків грають в баскетбол"
                 width="370"
+                class="card-img"
               />
-              <h2>Постер <span lang="en">New Orlean vs Golden Star</span></h2>
-              <p>Дизайн</p>
+              <h2 class="card-title">
+                Постер <span lang="en">New Orlean vs Golden Star</span>
+              </h2>
+              <p class="card-text">Дизайн</p>
             </a>
           </li>
-          <li>
-            <a href="#">
+          <li class="card-item">
+            <a href="#" class="card-link link">
               <img
                 src="./images/picture3.jpg"
                 alt="логотип ресторану океан їжі"
                 width="370"
+                class="card-img"
               />
-              <h2>Ресторан<span lang="en">Seafood</span></h2>
-              <p>Додаток</p>
+              <h2 class="card-title">Ресторан<span lang="en">Seafood</span></h2>
+              <p class="card-text">Додаток</p>
             </a>
           </li>
-          <li>
-            <a href="#">
+          <li class="card-item">
+            <a href="#" class="card-link link">
               <img src="./images/picture4.jpg" alt="навушники" width="370" />
-              <h2>Проєкт<span lang="en">Prime</span></h2>
-              <p>Маркетинг</p>
+              <h2 class="card-title">Проєкт<span lang="en">Prime</span></h2>
+              <p class="card-text">Маркетинг</p>
             </a>
           </li>
-          <li>
-            <a href="#">
+          <li class="card-item">
+            <a href="#" class="card-link link">
               <img
                 src="./images/picture5.jpg"
                 alt="біла та коричнева коробочка"
                 width="370"
+                class="card-img"
               />
-              <h2>Проєкт <span lang="en">Boxes</span></h2>
-              <p>Додаток</p>
+              <h2 class="card-title">Проєкт <span lang="en">Boxes</span></h2>
+              <p class="card-text">Додаток</p>
             </a>
           </li>
-          <li>
-            <a href="#">
+          <li class="card-item">
+            <a href="#" class="card-link link">
               <img
                 src="./images/picture6.jpg"
                 alt="монітор компанії apple"
                 width="370"
+                class="card-img"
               />
-              <h2><span lang="en">Inspiration has no Borders</span></h2>
-              <p>Веб-сайт</p>
+              <h2 class="card-title">
+                <span lang="en">Inspiration has no Borders</span>
+              </h2>
+              <p class="card-text">Веб-сайт</p>
             </a>
           </li>
-          <li>
-            <a href="#">
+          <li class="card-item">
+            <a href="#" class="card-link link">
               <img
                 src="./images/picture7.jpg"
                 alt="відкриті сторінки журналу"
                 width="370"
+                class="card-img"
               />
-              <h2>Видання<span lang="en">Limited Edition</span></h2>
-              <p>Дизайн</p>
+              <h2 class="card-title">
+                Видання<span lang="en">Limited Edition</span>
+              </h2>
+              <p class="card-text">Дизайн</p>
             </a>
           </li>
-          <li>
-            <a href="#">
+          <li class="card-item">
+            <a href="#" class="card-link link">
               <img
                 src="./images/picture8.jpg"
                 alt="біла бирка на мотузці"
                 width="370"
+                class="card-img"
               />
-              <h2>Проєкт LAB</h2>
-              <p>Маркетинг</p>
+              <h2 class="card-title">Проєкт LAB</h2>
+              <p class="card-text">Маркетинг</p>
             </a>
           </li>
-          <li>
-            <a href="#">
+          <li class="card-item">
+            <a href="#" class="card-link link">
               <img
                 src="./images/picture9.jpg"
                 alt="ноутбук із сайтом Growing Business"
                 width="370"
+                class="card-img"
               />
-              <h2><span lang="en">Growing Business</span></h2>
-              <p>Додаток</p>
+              <h2 class="card-title">
+                <span lang="en">Growing Business</span>
+              </h2>
+              <p class="card-text">Додаток</p>
             </a>
           </li>
         </ul>

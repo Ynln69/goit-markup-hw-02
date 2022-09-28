@@ -22,7 +22,7 @@ body {
 .link {
   text-decoration: none;
 }
-/* Стилі для шапки сайту*/
+/* Стилі для шапки сторінок*/
 .logo,
 .logo-dark {
   font-family: "Raleway";
@@ -41,7 +41,9 @@ body {
   letter-spacing: 0.02em;
   color: var(--secondory-font-color);
 }
-
+.nav-link.current {
+  color: var(--accent-color);
+}
 .nav-link:hover,
 .nav-link:focus {
   color: var(--accent-color);
@@ -70,6 +72,8 @@ body {
   color: var(--main-light-color);
 }
 .btn {
+  width: 216px;
+  height: 50px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -124,7 +128,7 @@ body {
 .team-box {
   background-color: var(--main-light-color);
 }
-/* Стилізація підвалу сторінки */
+/* Стилізація підвалу сторінок */
 .footer {
   background-color: var(--boder-bg-color);
 }
@@ -135,7 +139,45 @@ body {
   font-style: normal;
 }
 .address-link {
-  font-size: 14px;
   line-height: 1.71;
   color: var(--main-light-color);
+}
+.address-link:hover,
+.address-link:focus {
+  color: var(--accent-color);
+}
+/* Стилізація для сторінки портфоліо  */
+/* Основний контент\фільтр секція */
+.filter-button {
+  width: 125px;
+  height: 38px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  color: var(--secondory-font-color);
+  background: var(--section-team-bg-color);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--main-light-color);
+  background-color: var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+.card-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--secondory-font-color);
+}
+.card-text {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--main-font-color);
 }
