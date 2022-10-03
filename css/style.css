@@ -7,6 +7,7 @@
   --logo-color: #000000;
   --boder-bg-color: #2f303a;
   --section-team-bg-color: #f5f4fa;
+  --address-text-color: rgba(255, 255, 255, 0.6);
 }
 /* Загальні стилі */
 body {
@@ -142,12 +143,21 @@ body {
   font-style: normal;
 }
 .address-link {
-  line-height: 1.71;
   letter-spacing: 0.03em;
+  line-height: 1.71;
   color: var(--main-light-color);
+}
+.address-contact {
+  letter-spacing: 0.03em;
+  line-height: 1.71;
+  color: var(--address-text-color);
 }
 .address-link:hover,
 .address-link:focus {
+  color: var(--accent-color);
+}
+.address-contact:hover,
+.address-contact:focus {
   color: var(--accent-color);
 }
 /* Стилізація для сторінки портфоліо  */
